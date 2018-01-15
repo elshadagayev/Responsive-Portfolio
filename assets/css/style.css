@@ -216,7 +216,7 @@ button {
 }
 /*************************** end of body part ************************/
 
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 640px) {
 	.container {
 		width: 100%;
 	}
@@ -281,7 +281,7 @@ button {
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 	.container {
 		width: 100%;
 	}
@@ -323,7 +323,7 @@ button {
 	}
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (min-width: 980px) {
 	.body {
 		padding: 40px 0;
 	}
