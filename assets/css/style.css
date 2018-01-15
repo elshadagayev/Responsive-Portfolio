@@ -216,37 +216,16 @@ button {
 }
 /*************************** end of body part ************************/
 
-@media screen and (min-width: 640px) {
-	.container {
-		width: 100%;
-	}
-	.logo {
-		width: 100%;
-		float: none;
-		clear: both;
-	}
-	.main-menu-wrapper {
-		width: 100%;
-		float: none;
-		clear: both;
-		text-align: center;
-		padding: 20px;
-	}
-
+@media screen and (max-width: 980px) {
 	.body {
-		padding: 10px;
+		padding: 40px 0;
+	}
+	.container {
+		width: 80%;
 	}
 
-	.main-menu-wrapper ul {
-		top: auto;
-		display: inline-block;
-	}
-
-	.section {
-		float: none;
-		clear: both;
-		width: 100%;
-		margin: 10px 0 0 0 !important;
+	.left-section {
+		width: 440px;
 	}
 
 	.my-photo {
@@ -281,7 +260,7 @@ button {
 	}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 	.container {
 		width: 100%;
 	}
@@ -323,16 +302,37 @@ button {
 	}
 }
 
-@media screen and (min-width: 980px) {
-	.body {
-		padding: 40px 0;
-	}
+@media screen and (max-width: 640px) {
 	.container {
-		width: 80%;
+		width: 100%;
+	}
+	.logo {
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.main-menu-wrapper {
+		width: 100%;
+		float: none;
+		clear: both;
+		text-align: center;
+		padding: 20px;
 	}
 
-	.left-section {
-		width: 440px;
+	.body {
+		padding: 10px;
+	}
+
+	.main-menu-wrapper ul {
+		top: auto;
+		display: inline-block;
+	}
+
+	.section {
+		float: none;
+		clear: both;
+		width: 100%;
+		margin: 10px 0 0 0 !important;
 	}
 
 	.my-photo {
